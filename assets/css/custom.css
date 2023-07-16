@@ -9,3 +9,22 @@
 .planos-card {
     background: linear-gradient(#f9db62 ,#ffa724);
 }
+
+.botao-wpp {
+    position: fixed;
+    z-index: 1;
+    width: 45px;
+    height: 45px;
+    bottom: 70px;
+    right: 20px;
+    background: #34af23;
+    border-radius: 4px;
+    display: none;
+    text-align: center;
+    line-height: 62px;
+    transition: all 0.3s ease-out 0s;
+    > i {
+        font-size: 2rem;
+        color: #fff;
+    }
+}

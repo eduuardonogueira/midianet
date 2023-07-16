@@ -153,9 +153,11 @@ $(function() {
     // Show or hide the sticky footer button
     $(window).on('scroll', function(event) {
         if($(this).scrollTop() > 600){
-            $('.back-to-top').fadeIn(200)
+            $('.back-to-top').fadeIn(200);
+            $('.botao-wpp').fadeIn(200);
         } else{
-            $('.back-to-top').fadeOut(200)
+            $('.botao-wpp').fadeOut(200);
+            $('.back-to-top').fadeOut(200);
         }
     });
     

@@ -2360,16 +2360,14 @@ p {
        10.SLIDER css 
 ===========================*/
 .carousel-item {
-  background-color: #ffa724;
+  background: url("../images/bg-inicio__mobile") no-repeat;
+  background-size: cover;
   position: relative; }
   .carousel-item::before {
     position: absolute;
     content: '';
     width: 33%;
     height: 100%;
-    background: -webkit-linear-gradient(#f9db62 0%, #ffa724 100%);
-    background: -o-linear-gradient(#f9db62 0%, #ffa724 100%);
-    background: linear-gradient(#f9db62 0%, #ffa724 100%);
     top: 0;
     right: 15%;
     -webkit-transform: skewX(20deg);
@@ -2377,6 +2375,12 @@ p {
     -ms-transform: skewX(20deg);
     -o-transform: skewX(20deg);
     transform: skewX(20deg); }
+    @media screen and (min-width: 768px) {
+      .carousel-item {
+        background: url("../images/bg-inicio__desktop.webp") no-repeat;
+        background-size: cover;
+      }
+    }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
       .carousel-item::before {
         width: 40%; } }

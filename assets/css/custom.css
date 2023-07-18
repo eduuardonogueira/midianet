@@ -12,7 +12,7 @@
 
 .botao-wpp {
     position: fixed;
-    z-index: 1;
+    z-index: 99;
     width: 45px;
     height: 45px;
     bottom: 70px;

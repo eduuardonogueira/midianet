@@ -28,3 +28,19 @@
         color: #fff;
     }
 }
+
+@media screen and (min-width: 992px) {
+    .navbar-area .navbar .navbar-nav :nth-child(6) a {
+        background: #0067f4;
+        padding: 16px !important;
+        border-radius: 50px;
+        margin-top: 10px;
+    }
+
+    .navbar-area.sticky .navbar .navbar-nav :nth-child(6) a {
+        color: #fff !important;
+    }
+    
+}
+
+
